@@ -11,6 +11,7 @@ var handlebars = require('express3-handlebars')
 var index = require('./routes/index');
 var international_cafe = require('./routes/international_cafe');
 var names = require('./routes/names');
+var infocountry = require('./routes/infocountry');
 var get_involved = require('./routes/get_involved');
 var contact = require('./routes/contact');
 var analytics = require('./routes/analytics');
@@ -51,6 +52,8 @@ app.get('/contact',contact.view);
 app.get('/analytics', analytics.view);
 app.get('/names_audio', names_audio.view);
 app.get('/home', home.view);
+app.get('/infocountry', infocountry.view);
+
 //app.get('/', palette.sendColor);
 
 // Example route

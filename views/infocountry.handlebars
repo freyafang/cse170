@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<title>
+		International Cafe Schedule
+	</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+    <header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <div class="navigation_bar">
+                	<img src="images/menu.png" class="hamburger">
+                </div>
+                <ul>
+
+                    <div class="widget">
+                    {{#each navigation}}
+                    	<li><a href="{{page}}">{{name}}</a></li>
+                	{{/each}}
+                	</div>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </header>
+	<div class = "accordion" id="accordion2">
+		<div class = "accordion-group">
+			<div class = "accordion-heading">
+				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseOne">
+					<button class="btn btn-info" type="submit"> <h4> About Ireland </h4> </button>
+				</a>
+			</div>
+			<div id = "collapseOne" class="accordion-body collapse">
+				<div class = "accordion-inner">
+					<h2><small> <p>Ireland is an island in the North Atlantic to the west of Great Britain, from which it is separated by the North Channel, the Irish Sea, and St Georges Channel, and after which it is the largest island of the British Isles archipelago. It is the third-largest island in Europe and the twentieth-largest island on Earth. <small></h2></p>
+				</div>
+					<center>
+			    	<div class="logo">
+    			    	<img width ="800" src="images/ireland.jpg" class="img-responsive"></a>
+   			     		<img src="images/irland_flag.jpg" class="img-responsive"></a>
+    				</div>
+					</center>
+			</div>
+		</div>
+		<br>
+		<div class = "accordion-group">
+			<div class = "accordion-heading">
+				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseTwo">
+					<button class="btn btn-info" type="submit"> <h4>Irish Cuisine </h4></button>
+				</a>
+			</div>
+			<div id = "collapseTwo" class="accordion-body collapse">
+				<div class = "accordion-inner">
+					<h2><small><p>Food and cuisine in Ireland takes its influence from the crops grown and animals farmed in the island's temperate climate. Pork and white meat are common in Irish cuisine, as well as the potato, which was introduced in Ireland during the 16th century. Additionally, the Guinness beer is also typically associated with Ireland.</small></h2></p>
+				</div>
+			</div>
+			<br>
+		</div>
+			<div class = "accordion-group">
+			<div class = "accordion-heading">
+				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion3" href="#collapseThree">
+					<button class="btn btn-info" type="submit"> <h4>I-Cafe Event Details</h4></button>
+				</a>
+			</div>
+			<div id = "collapseThree" class="accordion-body collapse">
+				<div class = "accordion-inner">
+					<h2><small><p>Where: International Center, Quad area</small></h2></p>
+					<h2><small><p>When: Friday, March 13, 2015</small></h2></p>
+					<h2><small><p>Time: 12:00pm-1:15pm</p></small></h2>
+					<br>
+					<h2><small><p>Join us every Friday to experience the culture from a different country!</p></small></h2>
+				</div>
+			</div>
+		</div>
+</div>
+</br>
+
+ <a href="#" class="back-to-top" style="display: inline;">
+ <i class="fa fa-arrow-circle-up"></i>
+ </a>
+ <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
+
+</div>
+
+<a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a>
+<a class="back-to-top" style="display: inline;" href="#"><font size = "3">Back to Top</font></a>
+
+    <div class="widget">
+    	<ul>
+    		<center>
+    			<li class="active"><a href="international_cafe"><h4> Go back to International Cafe!</h4> </a></li>
+        		<li class="active"><a href="names"><h4> Let's learn some Irish!</h4> </a></li>
+				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
+			</center>
+		</ul>
+	</div>
+</br>
+	<p>Sources: Wikipedia and I-Cafe</p>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>
