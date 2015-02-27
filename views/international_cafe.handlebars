@@ -57,18 +57,32 @@
 		<center>
 			<body>
 				<font size = "6"><h1>International Cafe</h1>
-				<h3>Friday, March 13, 2015</h3>
+				<h4>Where: International Center, Quad area</h4>
+				<h4>When: Friday, March 13, 2015</h4>
+				<h4>Time: 12:00pm-1:15pm</h4>
 				<h3>This week's featured country: </h3>
 				<h2>IRELAND</h2></font>
+			</div>
+			<center>
+
+				<h3>What's on the menu?</h3>
+				<blockquote>
+				<p class ="lead"> <small>
+					Cottage pie, similar in style to the famous British sheperds pie, served with traditional soda bread, Irish slaw salad and chocolate potato cake.
+				</small> </p>
+				</blockquote>
 				<font size = "2"><p>Are you a fan of any of these Irish dishes? 'Yum!' them to increase their 'Yum!' popularity!</p>
-				<p>Top dishes can be found at the Top I-Cafe Dishes page!</p></font>
-				<img src='images/cottage-pie.jpg' class="img-responsive"></img>
-				<center> Cottage Pie </center>
+				<p>The 'Yum'miest! dishes can be found at the Top I-Cafe Dishes page!</p></font>
+			</center>
+			
+					<center>
+						 <h3><b>Cottage Pie </b></h3>
+					<img src='images/cottage-pie.jpg' class="img-responsive"></img>
 
-				<font color = "red"><center><button type="button" onClick="onClick()" >Like</button></font>   <a id="clicks">18</a></center>
-				<p>
-
-				</p>
+					<center><button class="btn btn-default" onClick="onClick()">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Yum!</button>
+					<h3> <small> There are currently <a id="clicks">18</a> yums for this dish! </small></h3></center>
+				</div>
 <!--
 				<div> Rate this food 
 			        	<option value="1">Best food ever!</option>
@@ -78,13 +92,16 @@
 			        </select>
     			 </div>
 -->
-
+				<center>
+				<h3><b> Chocolate Potato Cake </b></h3> </center>
 				<img src='images/chocolate-cake.jpg' class="img-responsive"></img>
-				<center> Chocolate Potato Cake </center>
 				
-				<center><button type="button" onClick="onClick2()" >Like</button>   <a id="clicks2">33</a></center>
-		
-
+				
+				<center><button class="btn btn-default" onClick="onClick2()">
+					<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Yum!</button>
+					<h3><small> There are currently <a id="clicks2">33</a> yums for this dish! </small></h3></center>
+			</center>
+		</div>
 <!--
 				<div> Rate this food 
 			        <select name="rating" required>
@@ -103,19 +120,22 @@
 
 -->
 			</body>
-		</center>
-		</div>
+	<!--	</div> -->
 
 	</p>
-	<li><span style = "float: right;">Expected Number of Attendants: <a id="clicks3">15</a></span></li>
-	<font size ="4"><p style="text-align:right;"><button type="button" onClick="onClick3()">Attending This Week!</button></p></font>
-	<h3>What's on the menu?</h3>
-	<blockquote>
-	<p> <small>
-		Cottage pie, similar in style to the famous British sheperds pie, served with traditional soda bread, Irish slaw salad and chocolate potato cake.
-	</small> </p>
-	</blockquote>
+	<center>
+		<div class="container">
+			<div class="jumbotron">
+	<h3> Are you joining us this week?
+	<br>
+	<small> We currently have <a id="clicks3">15 </a> people joining us! </small> </h3> 
+	<font size ="4"><p style=""><button class="btn btn-default" onClick="onClick3()">
+		<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> I'm joining!</button></p></font>
+</div>
+</div>
+</center>
 
+</center>
 	
 
  <a href="#" class="back-to-top" style="display: inline;">
@@ -133,7 +153,7 @@
     <div class="widget">
     	<ul>
     		<center>
-    			<li class="active"><a href="infocountry"><h4> More introduction for Irish!</h4> </a></li>
+    			<li class="active"><a href="infocountry"><h4> Learn more about Ireland here!</h4> </a></li>
         		<li class="active"><a href="names"><h4> Let's learn some Irish!</h4> </a></li>
 				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
 			</center>
