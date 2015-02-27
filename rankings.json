@@ -1,0 +1,39 @@
+{
+	"rankings":[
+	{
+		"id": 5,
+		"country": "India",
+		"food": "Chicken Tikka Masala",
+		"image": "https://justenougheducation.files.wordpress.com/2012/10/chicken-tikka-masala.jpeg",
+		"yums": 221
+	},
+	{
+		"id": 4,
+		"country": "Italy",
+		"food": "Potato Gnocchi",
+		"image": "http://storage.aicod.it/portale/academiabarilla/view/1200/Potato_gnocchi_with_meat_sauce_Romagna-style.jpg",
+		"yums": 264
+	},
+	{
+		"id": 3,
+		"country": "Brazil",
+		"food": "Vatapa de Galinha (chicken stew)",
+		"image":"http://ideiasfogao.files.wordpress.com/2009/07/vatapa_danado.jpg",
+		"yums": 349
+	},
+	{
+		"id": 2,
+		"country": "Iran",
+		"food": "Baklava dessert",
+		"image":"http://homecaprice.com/wp-content/uploads/2015/01/2-baklava.jpg",
+		"yums": 402
+	},
+	{
+		"id": 1,
+		"country": "Peru",
+		"food": "Peruvian chicken and rice",
+		"image":"http://media.tumblr.com/80a595dd9cf7aaa06265a05764b1d9bc/tumblr_inline_mhdg3dR2De1qz4rgp.jpg",
+		"yums": 485
+	}
+	]
+}

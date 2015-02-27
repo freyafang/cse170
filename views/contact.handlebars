@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<title>
+		Contact
+	</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>	
+
+    <header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <div class="navigation_bar">
+                	<img src="images/menu.png" class="hamburger">
+                </div>
+                <ul>
+
+                    <div class="widget">
+                    {{#each navigation}}
+                    	<li><a href="{{page}}">{{name}}</a></li>
+                	{{/each}}
+                	</div>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </header>
+	
+	<center>
+		<h1>
+			<img src="http://2.bp.blogspot.com/-b5opml-NTuA/TaU1cK7SlPI/AAAAAAAAACw/vGfN50S7au8/s1600/sunshine.png" width="160">
+			<p> <font color="purple" size = "13"> Celia Wong: cww006@ucsd.edu </font> <p>
+			<p> <font color="purple" size = "13"> Wenjing Fang: w3fang@ucsd.edu</font> <p>
+			<p> <font color="purple" size = "13"> Bonnie Chinh: bchinh@ucsd.edu</font> </p>
+		</h1>
+
+    	<div class="logo">
+        	<img src="images/llama-face.jpg"></a>
+    	</div>
+	</center>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

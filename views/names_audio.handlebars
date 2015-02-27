@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<!--We probably won't need this page at all, but I made it just to show that the names will link somewhere for now. !-->
+
+<html>
+<body>
+	<title>
+		Learn Irish!
+	</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>	
+
+    <header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <div class="navigation_bar">
+                    <img src="images/menu.png" class="hamburger">
+                </div>
+                <ul>
+
+                    <div class="widget">
+                    {{#each navigation}}
+                        <li><a href="{{page}}">{{name}}</a></li>
+                    {{/each}}
+                    </div>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </header>
+
+    <center>
+        <h1>Sorry, the audio for this name is currently unavailable!</h1>
+    	<div class="logo">
+        	<img style="width:50%" src="http://n-media.net/wp-content/uploads/2013/05/Web-under-construction.jpeg"></a>
+    	</div> 
+    </center>
+
+    <a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a>
+<a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

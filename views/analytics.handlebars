@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Analytics</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+
+<header>
+<body>
+    <title>
+        Cafe History
+    </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+    hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> 
+
+    <header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <div class="navigation_bar">
+                    <img src="images/menu.png" class="hamburger">
+                </div>
+                <ul>
+
+                    <div class="widget">
+                    {{#each navigation.navigation}}
+                        <li><a href="{{page}}">{{name}}</a></li>
+                    {{/each}}
+                    </div>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </header>
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <center> <h1>
+            International Cafe Dish Popularity
+        </h1>
+        </center>
+    </div>
+
+    <center>
+        <h1>
+            Top 5 Popular Dishes
+        </h1>
+        <br>
+        {{#each rankings.rankings}}
+        <b><p>#{{id}} {{country}} - {{food}}</p></b>
+        <p> Yums: {{yums}} </p>
+        <div class="logo">
+            <img src={{image}}>
+        </div>
+        <br>
+        {{/each}}
+    </center>
+    <br>
+
+    <div class="widget">
+        <ol>
+            <center>
+            <li class="active"><a href="international_cafe">Back to this week's International Cafe</a></li>
+            <li class="active"><a href="cafe_history"> Back to previous cafes</a></li>
+            </center>
+        </ol>
+    </div>
+<a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a>
+<a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
+
+</body>
+</html>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

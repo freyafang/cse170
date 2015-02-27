@@ -1,0 +1,29 @@
+{
+	"navigation":[
+	{
+		"id": 1,
+		"name": "Home",
+		"page": "home"
+	},
+	{
+		"id": 2,
+		"name": "International Cafe",
+		"page": "international_cafe"
+	},
+	{
+		"id": 3,
+		"name": "Top I-Cafe Dishes",
+		"page": "analytics"
+	},
+	{
+		"id": 4,
+		"name": "Learn Irish!",
+		"page": "names"
+	},
+	{
+		"id": 5,
+		"name": "Get Involved!",
+		"page": "get_involved"
+	}
+	]
+}

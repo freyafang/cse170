@@ -1,0 +1,34 @@
+{
+	"sentences":[
+	{
+		"id": 1,
+		"phrase": "Dia dhuit.",
+		"english": "Hello",
+		"sound": "static/audio/Dia_dhuit.wav"
+	},
+	{
+		"id": 2,
+		"phrase": "Dia is Muire dhuit.",
+		"english": "Hello (as a reply).",
+		"sound": "static/audio/Dia_is_Muire_dhuit.wav"
+	},
+	{
+		"id": 3,
+		"phrase": "Cad is ainm duit?",
+		"english": "What is your name?",
+		"sound": "static/audio/Cad_is_ainm_duit.wav"
+	},
+	{
+		"id": 4,
+		"phrase": "(name) is ainm dom.",
+		"english": "My name is (name).",
+		"sound": "static/audio/_is_ainm_dom.wav"
+	},
+	{
+		"id": 5,
+		"phrase": "Is e seo bia sobhlasta.",
+		"english": "This food is delicious.",
+		"sound": "static/audio/is_e_seo_bia_sobhlasta.wav"
+	}
+	]
+}

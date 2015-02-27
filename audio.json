@@ -1,0 +1,16 @@
+{
+	"sounds":[
+	{
+		"buffer": null, 
+        "encoding": "7bit", 
+        "extension": "wav", 
+        "fieldname": "file", 
+        "mimetype": "text/plain", 
+        "name": "Oisin.wav", 
+        "originalname": "Oisin.wav", 
+        "path": "static/audio/Oisin.wav", 
+        "size": 107, 
+        "truncated": false
+	}
+	]
+}

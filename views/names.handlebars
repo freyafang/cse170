@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+	<title>
+		Names Across the Globe
+	</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script type="text/javascript">
+    function jBeep(a){if(!a)a="jBeep/jBeep.wav";var b,c,d;d=true;try{if(typeof document.createElement("audio").play=="undefined")d=false}catch(e){d=false}c=document.getElementsByTagName("body")[0];if(!c)c=document.getElementsByTagName("html")[0];b=document.getElementById("jBeep");if(b)c.removeChild(b);if(d){b=document.createElement("audio");b.setAttribute("id","jBeep");b.setAttribute("src",a);b.play()}else if(navigator.userAgent.toLowerCase().indexOf("msie")>-1){b=document.createElement("bgsound");b.setAttribute("id","jBeep");b.setAttribute("loop",1);b.setAttribute("src",a);c.appendChild(b)}else{var f;b=document.createElement("object");b.setAttribute("id","jBeep");b.setAttribute("type","audio/wav");b.setAttribute("style","display:none;");b.setAttribute("data",a);f=document.createElement("param");f.setAttribute("name","autostart");f.setAttribute("value","false");b.appendChild(f);c.appendChild(b);try{b.Play()}catch(e){b.object.Play()}}}
+    </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>	
+
+    <header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <div class="navigation_bar">
+                    <img src="images/menu.png" class="hamburger">
+                </div>
+                <ul>
+
+                    <div class="widget">
+                    {{#each navigation}}
+                        <li><a href="{{page}}">{{name}}</a></li>
+                    {{/each}}
+                    </div>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </header>
+    
+<a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a>
+<a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
+    <div>
+	<center>
+		<h1>
+			Speak Irish
+		</h1>
+    </br>
+        <h3>Common Names</h3>
+        <p>Click to hear the pronunciation!</p>
+    </br>
+    <div class="container">
+    <div class="jumbotron">
+    <div class= "background">
+        <table style="width:50%">
+            <center>
+            <ul>
+            <tr>
+                <td>Male</td>
+                <td>Female</td>
+                {{#each names}}
+                    <center>
+                    <tr>
+                        <td><button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');">{{maleName}}</td></button>
+                        <td><button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');">{{femaleName}}</td></button>
+                    </tr>
+                    </center>
+                {{/each}}
+                <!--
+            </tr>
+            <tr>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Oisin
+                </th></td>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Caoimhe
+                </th></td>
+            </tr>
+            <tr>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Eoin
+                </th></td>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Saoirse
+                </th></td>
+            </tr>
+            <tr>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Tadhg
+                </th></td>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Ciara
+                </th></td>
+            </tr>
+            <tr>
+                <td><th><a href="names_audio.html">
+                    <img src="images/play.png" class="playButton">
+                    </img>
+                </a>Rhys
+            </th></td>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Sadhbh
+                </th></td>
+            </tr>
+            <tr>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                    </img>
+                </a>Killian
+            </th></td>
+                <td><th>
+                    <a href="names_audio.html">
+                        <img src="images/play.png" class="playButton">
+                        </img>
+                    </a>Eimear
+                </th></td>
+            </tr> -->
+            </ul>
+        </center>
+        </table>
+</div> 
+</div>
+</div>
+        </br>
+            <h3>Common Greetings and Phrases</h3>
+            <p>Click to hear the pronunciation! English translations are provided above each Irish phrase.</p>
+        </br>
+    <div class="container">
+    <div class="jumbotron">
+    <div class= "background">
+            <ul>
+                {{#each sentences}}
+                <p><small>{{english}}</small><p>
+                <button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');"></a><a href="{{sound}}"></a>{{phrase}}</button>
+                </br>
+                {{/each}}
+                <!--
+                <a href="names_audio.html">
+                    <img src="images/play.png" class="playButton"></img>
+                </a> Dia dhuit.
+                <p><small>Hello.</small></p>
+                <a href="names_audio.html">
+                    <img src="images/play.png" class="playButton"></img>
+                </a>Dia is Muire dhuit.
+                <p><small>Hello (as a reply).</small></p>
+                <a href="names_audio.html">
+                    <img src="images/play.png" class="playButton"></img>
+                </a>Cad is ainm duit?
+                <p><small>What is your name?</small></p>
+                <a href="names_audio.html">
+                    <img src="images/play.png" class="playButton"></img>
+                </a>(name) is ainm dom.
+                <p><small>My name is (name).</small></p>           
+                <a href="names_audio.html">
+                    <img src="images/play.png" class="playButton"></img>
+                </a>Is e seo an bia sobhlasta.
+                <p><small>This food is delicious.</small></p> -->
+            </ul>
+    </div>
+</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>    
+</body>
+</html>
